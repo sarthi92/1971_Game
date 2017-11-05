@@ -1,4 +1,4 @@
-# 1971_Game
+# 1971
 Play through true events of Indo-Pakistan War of 1971
 
 __Abstract__  
