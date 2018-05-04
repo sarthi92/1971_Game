@@ -1,9 +1,41 @@
 # 1971
-Play through true events of Indo-Pakistan War of 1971
+Play through true events of Indo-Pakistan War of 1971, an RTS game developed on ARM7 based SOC.
 
-__Abstract__  
-1971 is a real-time strategy game that follows the story of Indo-Pakistan war of 1971 that led to the formation of Bangladesh. Being one of the shortest historic wars, lasting just 13 days, this game will come up with different levels in the Campaign Mode. A Deathmatch mode will be provided where the user does not follow the campaign but plays against the computer. 
+<img src="https://github.com/sarthi92/1971_Game/blob/master/game_1.jpg" width="50%"><img src="https://github.com/sarthi92/1971_Game/blob/master/game_2.jpg" width="50%">
+<img src="https://github.com/sarthi92/1971_Game/blob/master/game_3.jpg" width="50%"><img src="https://github.com/sarthi92/1971_Game/blob/master/game_4.jpg" width="50%">
 
-Player starts from a basic set-up of armed forces and warfare equipment. As the game progresses, reinforcements arrive to support the player. Maximum population capacity of 10 is there for each player. Player may be asked to ambush the enemy or, defend against infiltration. Player is expected to play intelligently in the game. There are 3 playable unit classes: RIFLEMAN(infantry), HOWITZER(artillery), TANK(cavalry). 
+### Gameplay
+***Home screen***  
+1. If any pushbutton is pressed, go to Main Menu.  
+2. There are 4 options in Main Menu: Campaign, Deathmatch, Help, Exit.  
+3. Options can be selected using up-down joystick functionality.  
+4. Selected option can be entered by SELECT Key (X-Key).  
 
-Uses C, Keil IDE, LPC2148 (ARM7) Blue-board, LCD display, 2-Axis Joystick, Push buttons, USB A to B Cable, Speakers
+***Campaign Mode***
+1. This mode has 4 levels.  
+2. Enter any option using joystick & SELECT Key.  
+3. After level is selected, a level description is loaded from where Play mode can be invoked.  
+4. BACK Key (Y-Key) is used to go to Main Menu.  
+
+***Deathmatch Mode***
+1. This is a special map where face-off beteen foot soldiers takes place.  
+2. Play mode can be loaded to start the map.  
+
+***Play Mode***
+1. X-Key is used to select different units.  
+2. Y-Key pauses the game and asks whether the user wants to quit the game.  
+3. Joystick is used for movement of each unit.  
+4. The enemy AI is built in such a way so as to detect weakest enemy in range and follow/attack them.  
+5. The player only need to move the units at correct locations to win the game.  
+6. The player is free to design effective battle formations with the available units.  
+7. The level ends whenever a side loses all of its units.  
+
+***Help***
+1. Play instructions are loaded on the display.  
+2. User can go back to Main Menu by selecting Y-Key.  
+
+***Exit***  
+1. User is taken back to Home screen.  
+
+### Game Console Schematic
+![schematic](https://github.com/sarthi92/1971_Game/blob/master/schematic.png)
